@@ -1,0 +1,26 @@
+# This file desicribes the methods for data handling that need to be
+# used when working on this project.
+
+
+-- Collection --
+
+
+Data collection done through posting html forms on website to be allocated.
+
+All entries to entered as BSON documents into MongoDB. 
+
+Flask and pymongo will be used.
+
+
+-- Analysis --
+
+
+Data will be analysed using various python modules server side and stored
+on MongoDB.
+
+
+-- Interpretation --
+
+
+The r2py module will be used to interpret things server side as well
+and relay it back to the client. 
